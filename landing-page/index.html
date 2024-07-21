@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- logo icon page -->
+    <link rel="icon" type="image/png" href="image/logo-no-background-icon.png">
+    <title>EC-Store</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo web -->
+                <div class="logo">
+                    <a href="index.html"><img src="image/logo-no-background.png" alt="Erroe-logo-image"></a>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- -------------------- search-------------------- -->
+                        <div class="wrapper-search">
+                            <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                            <input type="search" class="search-input" id="search" placeholder="Search...">
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-setting"><i class="fa-solid fa-gear"></i></a></li>
+                    <li class="nav-item"><a href="../login/form-login.html" class="btn-link"><button type="button"
+                                class="nav-btn">Login</button></a></li>
+                    <li class="nav-item"><a href="../sing-up/sign.html" class="btn-link"><button type="button" class="nav-btn">Sign Up</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero carousel section -->
+    <section class="hero-carousel">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/banner-image1.webp" alt="Error-banner-image1">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="hero-detail">
+                                <div class="hero-content">
+                                    <h3 class="title wow animate__animated animate__fadeInDown">Welcome To Our <br>
+                                        E-Collection Store</h3>
+                                    <p class="detail wow animate__animated animate__fadeInUp">You can enjoy shopping
+                                        with our in this website or come to our
+                                        store. We have many new collection that are very trainding now.</p>
+                                    <div class="hero-btn  wow animate__animated animate__fadeInUp">
+                                        <a href="../login/form-login.html" class="btn-link shop-link"><button class="shop-btn">Shop
+                                                Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/banner-image2.jpeg" alt="Error-banner-image2">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="hero-detail">
+                                <div class="hero-content">
+                                    <h3 class="title">Many Choice For You Choose With Your Need</h3>
+                                    <p class="detail">There are many brand and model that you can choose which your
+                                        favorite. You can buy for your family or your partner another for yourself we
+                                        have all options for you.</p>
+                                    <div class="hero-btn">
+                                        <a href="../login/form-login.html" class="btn-link shop-link"><button class="shop-btn">Shop
+                                                Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/banner-image3.webp" alt="Error-banner-image3">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="hero-detail">
+                                <div class="hero-content">
+                                    <h3 class="title">Be Confident With Your Life Style</h3>
+                                    <p class="detail">Please, be confident with your life style. We can help you with
+                                        our collection that will make you feel comfortable and have feel confidently
+                                        with your self.</p>
+                                    <div class="hero-btn">
+                                        <a href="../login/form-login.html" class="btn-link shop-link"><button class="shop-btn">Shop
+                                                Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/banner-image4.webp" alt="Error-banner-image4">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="hero-detail">
+                                <div class="hero-content">
+                                    <h3 class="title">Best New Arrivals</h3>
+                                    <p class="detail">We have many best arrivals. There are the popular style and model
+                                        that are trainding now.</p>
+                                    <div class="hero-btn">
+                                        <a href="../login/form-login.html" class="btn-link shop-link"><button class="shop-btn">Shop
+                                                Now</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+<!-- main -->
+    <main>
+        <div class="container">
+            <!-- Feature section -->
+            <section class="feature-section">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="feature-title wow animate__animated animate__fadeInUp">LATEST COLLECTION</h1>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__slideInLeft">
+                                <img src="image/feature1.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInLeft">
+                                <img src="image/feture2.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Jacket</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 35.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/feature3.webp" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 10.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/feature4.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__slideInLeft">
+                                <img src="image/feature5.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Crop T-shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__slideInLeft">
+                                <img src="image/feature6.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/feature7.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 10.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/feature8.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">New</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">T-Shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+
+                    <div class="col-12">
+                        <h1 class="feature-title wow animate__animated animate__fadeInUp">NOW TRENDING!</h1>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInLeft">
+                                <img src="image/trending-image1.jpeg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">-30%</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Crop T-shirt</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInLeft">
+                                <img src="image/trending-image2.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">-10%</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Couple</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 35.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/trending-image3.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">-10%</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Cotton-Shorts</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 14.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <div class="card wow animate__animated animate__fadeInRight">
+                                <img src="image/trending-image4.jpg" class="feature-image" alt="">
+                                <div class="overlay">
+                                    <div class="card-content">
+                                        <div class="card-head">
+                                            <span class="noti">-20%</span>
+                                        </div>
+                                        <div class="card-foot">
+                                            <h5 class="name">Couple</h5>
+                                            <span class="pro-price">Price : <h4 class="price">$ 40.00</h4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div class="feature-btn wow animate__animated animate__fadeInUp">
+                            <a href="../login/form-login.html" class="btn-link view-link"><button type="button" class="btn-view">View All
+                                    Products</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Promote section -->
+            <section class="promote-section">
+                <div class="promote-card wow animate__animated animate__fadeInUp">
+                    <div class="promote-image">
+                        <div class="image wow animate__animated animate__fadeInUp">
+                            <img src="image/promote-image.png" alt="Error-promote-image">
+                        </div>
+                    </div>
+                    <div class="promote-content">
+                        <div class="promote-detail">
+                            <span class="title wow animate__animated animate__fadeInUp">Best Saving With Being Our
+                                Membership</span>
+                            <p class="detail wow animate__animated animate__fadeInUp">You can get many benefit and get a
+                                lot of discount in our store by joining
+                                in our membership. You can create an online acount by sign up to be our member or go to
+                                our store to make a member card.</p>
+                            <div class="promote-btn wow animate__animated animate__fadeInUp">
+                                <a href="../login/form-login.html" class="btn-link"><button class="btn">Shop Now</button></a>
+                                <a href="../sing-up/sign.html" class="btn-link"><button class="btn">Create Account</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Benefit section -->
+            <section class="benefit-section">
+                <div class="benefit-title wow animate__animated animate__fadeInUp">
+                    <h1>WHY SHOP WITH US </h1>
+                </div>
+                <div class="benefit-content">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card wow animate__animated animate__fadeInUp">
+                                <span class="benefit-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                                <span class="title">Fast Delivery</span>
+                                <p class="benefit-detail">You can get the product you have bought online in 2 days is
+                                    the longest time.</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card wow animate__animated animate__fadeInUp">
+                                <span class="benefit-icon"><i class="fa-solid fa-medal"></i></span>
+                                <span class="title">Best Quality</span>
+                                <p class="benefit-detail">You can believe on all of our products have the high quality.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card wow animate__animated animate__fadeInUp">
+                                <span class="benefit-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                                <span class="title">Free Shipping</span>
+                                <p class="benefit-detail">If you buy over than 3 or 4 product in a time you don't have
+                                    to spend for shipping.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Us section -->
+            <section class="contact-section">
+                <h4 class="contact-title wow animate__animated animate__fadeInUp">CONTACT US</h4>
+                <div class="contact-content wow animate__animated animate__fadeInUp">
+                    <div class="map wow animate__animated animate__fadeInUp">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.1789733463287!2d104.88973914963715!3d11.572213133202892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e706d9cdf%3A0xb0bf13884e6cd05f!2z4Z6Q4Z-S4Z6T4Z624Z6A4Z-L4Z6U4Z6O4Z-S4Z6K4Z674Z-H4Z6U4Z6O4Z-S4Z6K4Z624Z6b4Z6U4Z6F4Z-S4Z6F4Z-B4Z6A4Z6c4Z634Z6R4Z-S4Z6Z4Z624Z6i4Z624Z6T!5e0!3m2!1skm!2skh!4v1710952167491!5m2!1skm!2skh"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contact-form">
+                        <form action="index.html" method="get" target="_blank">
+                            <input type="text" class="form-control wow animate__animated animate__fadeInUp"
+                                placeholder="Name" id="name" name="txtname" required>
+                            <input type="email" class="form-control wow animate__animated animate__fadeInUp"
+                                placeholder="Email" id="email" name="txtemail" required>
+                            <input type="text" class="form-control wow animate__animated animate__fadeInUp"
+                                placeholder="Phone" id="phone" name="phonenum" required>
+                            <textarea class="message-form wow animate__animated animate__fadeInUp" name="txtmesage"
+                                placeholder="Message" id="message" cols="55" rows="6"></textarea>
+                            <button type="submit" class="btn-send wow animate__animated animate__fadeInUp">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- footer wage -->
+    <footer>
+        <div class="container">
+            <div class="foot-section">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="foot-content">
+                            <span class="title">EC-Store App</span>
+                            <div class="detail">
+                                <a href="#"><i class="fa-brands fa-google-play"></i> Play Store</a>
+                                <a href="#"><i class="fa-brands fa-app-store"></i> App Store</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="foot-content">
+                            <span class="title">About Us</span>
+                            <div class="detail">
+                                <p>
+                                    This website make for everyone to use to shopping online and it can help people who
+                                    want to see product first before they go to our shop. Actually it also makes for
+                                    someone just only want to see the new model or new collection in nowadays.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="foot-content">
+                            <span class="title">Follow Us</span>
+                            <div class="detail">
+                                <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="foot-content">
+                            <span class="title">Contact Us</span>
+                            <div class="detail">
+                                <a href="#"><i class="fa-solid fa-envelope"></i> info@ecstore.com</a>
+                                <a href="#"><i class="fa-solid fa-phone"></i> (+855) 0979419620</a>
+                                <a href="#"><i class="fa-solid fa-phone"></i> (+855) 0964178904</a>
+                                <a href="#"><i class="fa-brands fa-telegram"></i> t.me/ecstore096</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="foot-detail">
+                            <span>Designed by Group 5 © 2024 | Using HTML-CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 0,
+            centeredSlides: true,
+            effect: "fade",
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Animetion JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
